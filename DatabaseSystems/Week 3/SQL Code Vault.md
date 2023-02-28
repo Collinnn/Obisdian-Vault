@@ -31,7 +31,7 @@ create table owns(DriverID varchar(5),License varchar(5), primary key(DriverID,L
 , foreign key(DriverID) references Person(DriverID), foreign key(License) references Car(License));
 
 ```
-[[LIKE]] is a string matching operator,
+[[Like]] is a string matching operator,
 
 ```
 Like 'Anne'
@@ -54,6 +54,14 @@ Like '%duc%', matches anything with the substring duc, example being "introducti
 
 [[Union,Intersect,EXCEPT]]
 
+[[JOIN]]
 
+[[Data Types]]
 
+[[Not Null And Primary Key]]
 
+[[Views]]
+
+[[Users]]
+
+[[Rules]]
