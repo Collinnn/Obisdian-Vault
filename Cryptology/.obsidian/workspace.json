@@ -78,9 +78,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7854a0fb197cd6f6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -208,7 +218,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f9a2776745802dc2",
+  "active": "7854a0fb197cd6f6",
   "lastOpenFiles": [
     "Pasted image 20230227143356.png",
     "Message Authentication Code (MAC's).md",
