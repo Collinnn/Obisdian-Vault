@@ -36,4 +36,5 @@
 	- [[Order of a group element]]
 	- [[Lagrange's Theorem]]
 	- [[Diffie Hellman]]
-	- 
+- Week 11(Lecture 10)
+	- [[LWE & Regev]]

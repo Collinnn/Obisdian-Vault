@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AES - Advanced Encryption Standard.md",
+                "file": "Diffie Hellman.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "038cf73decec173c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001_lectures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001_lectures.md",
+                "file": "Diffie Hellman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001_lectures.md",
+                "file": "Diffie Hellman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "001_lectures.md"
+                "file": "Diffie Hellman.md"
               }
             }
           }
@@ -171,50 +158,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "038cf73decec173c",
+  "active": "1de76f08e307b893",
   "lastOpenFiles": [
-    "Coprimeality.md",
-    "Pasted image 20230508152844.png",
-    "Pasted image 20230508152710.png",
-    "Pasted image 20230508152658.png",
-    "AES - Advanced Encryption Standard.md",
-    "Block Ciphers.md",
+    "Discrete Logarithms.md",
+    "Order of a group element.md",
+    "Digital Signatures.md",
     "CTR-Encryption.md",
-    "001_lectures.md",
-    "Diffie Hellman.md",
+    "Coprimeality.md",
+    "AES - Advanced Encryption Standard.md",
+    "books/3 - digital signatures and primality testing.pdf",
+    "books/2- rsa and digital signatures.pdf",
+    "books/course-plan-public.pdf",
+    "books/Cryptography Made Simple.pdf",
+    "books/2_secure-encryption.pdf",
     "000_index.md",
+    "Security properties of the five basic modes of operation.md",
+    "001_lectures.md",
+    "Untitled.md",
+    "Block Ciphers.md",
+    "Inverse modulo.md",
+    "LWE & Regev.md",
+    "Lagrange's Theorem.md",
+    "Pasted image 20230512202724.png",
+    "Greatest Common Divisor.md",
+    "Hash Functions.md",
+    "Hybrid Encryption.md",
+    "Kerkhoffs' principle.md",
+    "attachments/Pasted image 20230508152658.png",
+    "attachments/Pasted image 20230512201224.png",
+    "Modular arithmetic.md",
+    "attachments/Pasted image 20230508152844.png",
+    "attachments/Pasted image 20230508152710.png",
+    "Diffie Hellman.md",
     "Message Authentication Codes (MACS).md",
     "Pasted image 20230508130259.png",
     "Security.md",
-    "Security properties of the five basic modes of operation.md",
     "attachments/Pasted image 20230508102949.png",
-    "Discrete Logarithms.md",
     "Encryption Scheme.md",
     "CTR.md",
     "Public-key Encryption.md",
     "RSA-OAEP.md",
-    "Hash Functions.md",
-    "Digital Signatures.md",
-    "Miller Rabin Test.md",
     "attachments/Miller rabin generation.png",
     "attachments/Miller Rabin test.png",
-    "Kerkhoffs' principle.md",
-    "Goals of Cryptography.md",
-    "Euler's Theorem.md",
-    "Euler's Totient function.md",
-    "Lagrange's Theorem.md",
-    "Hybrid Encryption.md",
-    "002_cyberchef.md",
-    "books/2_secure-encryption.pdf",
-    "books/2- rsa and digital signatures.pdf",
-    "books/3 - digital signatures and primality testing.pdf",
-    "books/course-plan-public.pdf",
-    "books/Cryptography Made Simple.pdf",
     "books/exam 2022.pdf",
     "problem_sheets/homework 1.pdf",
     "attachments/AddRoundKey.png",
-    "attachments/IND-CCA.png",
-    "attachments/IND-CPA.png",
     "books/exam2021.pdf",
     "books/re-exam2022.pdf",
     "database systems/books"

@@ -1,4 +1,3 @@
-# Discrete Logarithms
 
 ## Discrete logarithms modulo a prime
 

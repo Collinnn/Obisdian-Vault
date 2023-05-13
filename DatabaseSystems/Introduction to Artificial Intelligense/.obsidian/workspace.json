@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 4/Results Function.md",
+                "file": "Week 4/And-Or Search Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,6 +113,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "f6e79af2c6bcf57a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -134,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 4/Results Function.md",
+                "file": "Week 4/And-Or Search Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 4/Results Function.md",
+                "file": "Week 4/And-Or Search Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 4/Results Function.md"
+                "file": "Week 4/And-Or Search Trees.md"
               }
             }
           }
@@ -195,15 +203,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1768776ba695520c",
+  "active": "70159af58529805c",
   "lastOpenFiles": [
-    "Week 4/Belief State.md",
-    "Week 4/Limited Observability.md",
     "Week 4/AND-OR Graph Search SudoCode.md",
-    "Week 4/Simple implementations.md",
-    "Week 4/Deterministic.md",
-    "Week 4/None determinstic.md",
     "Week 4/And node.md",
-    "Week 4/And-Or Search Trees.md"
+    "Week 4/And-Or Search Trees.md",
+    "Week 4/Deterministic.md",
+    "Week 4/Limited Observability.md",
+    "Week 4/Simple implementations.md",
+    "Pasted image 20230221102519.png",
+    "Week 4/Results Function.md",
+    "Week 4/Belief State.md",
+    "Week 4/None determinstic.md"
   ]
 }
