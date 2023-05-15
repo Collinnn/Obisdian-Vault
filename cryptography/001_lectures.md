@@ -15,7 +15,7 @@
 	- Homework week
 - Week 5
 	- [[Goals of Cryptography]]
-	- [[Message Authentication Codes (MACS)]]
+	- [[Message Authentication Codes]]
 	- [[Hash Functions]]
 - Week 6
 	- [[Modular arithmetic]]
@@ -36,5 +36,19 @@
 	- [[Order of a group element]]
 	- [[Lagrange's Theorem]]
 	- [[Diffie Hellman]]
-- Week 11(Lecture 10)
-	- [[LWE & Regev]]
+- Week 11 (Lecture 10)
+	- [[Quantum Computer]]
+- Week 12 (Lecture 11)
+	- [[Post-quantum cryptography]]
+	- [[Learning With Errors (LWE)]]
+	- [[Regev encryption]]
+
+
+Other:
+- [[Square and multiply]]
+- [[Modes of Operation]]
+- [[Attack Types]]
+- [[Security Tests]]
+
+
+

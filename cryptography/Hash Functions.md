@@ -25,7 +25,7 @@ Cryptographic Primitive
 - We can then use the same idea as block-wise encryption
 - **Merkle-Damgård construction**:
 	- $m\in \{0,1\}^{*}$, divide into $m=m_{1}||m_{2}||\dots||m_{e}$, $m_{i}\in\{0,1\}^n$
-	- 
+
 
 
 

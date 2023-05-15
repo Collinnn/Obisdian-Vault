@@ -1,9 +1,10 @@
+# Discrete Logarithms
 
 ## Discrete logarithms modulo a prime
 
 Let $p$ be a prime
 
-TODO: INSERT PICTURE SLIDE 12
+![[Discrete logarithms modulo a prime.png]]
 
 **Regular logarithm** 
 $2^{a}=1024$, solve for $a$, super easy

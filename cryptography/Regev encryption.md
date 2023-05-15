@@ -1,0 +1,3 @@
+# Regev encryption
+
+Regev encryption is a lattice-based encryption scheme proposed by Oded Regev in 2005. The scheme is based on the hardness of the Learning with Errors (LWE) problem, which is a computational problem in the field of lattice-based cryptography. Regev encryption offers several advantages over traditional public-key encryption schemes, such as being resistant to quantum attacks and having a smaller public key size. The scheme has been the subject of significant research and is widely used in applications such as post-quantum cryptography and secure outsourcing of computation.

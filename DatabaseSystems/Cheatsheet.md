@@ -1,42 +1,44 @@
-### Users
-```
-Select User, Host from mysql.user;
+>[!tip] Users
+``` sql
+SELECT User, Host from mysql.user;
 ```
 
-```
+
+``` sql
 CREATE USER 'userName'@'localhost' IDENTIFIED BY 'somePassword';
 ```
 
-```
+``` sql
 GRANT ALL PRIVILEGES ON * . * TO 'userName'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-```
+``` sql
 SHOW GRANTS for 'userName'@'localhost';
 ```
 
-```
+``` sql
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'userName'@'localhost';
 ```
 
-```
+``` sql
 DROP USER 'userName'@'localhost';
 ```
-### Database
-```
+>[!tip] Database
+``` sql
 SHOW DATABASES;
 ```
 
-```
+``` sql
 DELETE DATABASE somedatabase;
 ```
 
-```
+``` sql
 USE somedatabase
 ```
-### Tables
-```
+
+>[!tip] Tables
+``` sql
 CREATE TABLE users(
 id INT AUTO_INCREMENT,
    first_name VARCHAR(100),
@@ -51,7 +53,7 @@ id INT AUTO_INCREMENT,
 );
 ```
 
-```
+``` sql
 CREATE TABLE posts(
 id INT AUTO_INCREMENT,
    user_id INT,
@@ -63,78 +65,79 @@ id INT AUTO_INCREMENT,
 );
 ```
 
-```
+``` sql
 DROP TABLE tablename
 ```
 
-```
+``` sql
 INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
 ```
 
-```
+``` sql
 INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Sara', 'Watson', 'sara@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Jackson', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
 ```
 
-```
+``` sql
 DELETE FROM tablename WHERE id = 6
 ```
 
-```
+``` sql
 UPDATE tablename SET email = 'freddy@gmail.com' WHERE id = 2;
 ```
 
-```
+``` sql
 ALTER TABLE tablename ADD columname VARCHAR(30)
 ```
 
-```
+``` sql
 ALTER TABLE tablename MODIFY COLUMN columname INT
 ```
 ### SELECT STATEMENTS
 
-##### ORDER BY (Sort)
+>[!tip] ORDER BY (Sort)
 
-```
+``` sql
 SELECT * FROM tableName ORDER by tableName ASC; 
 SELECT * FROM tableName ORDER by tableName DESC; 
 ```
 
-##### CONCAT COLUNM
-```
+>[!tip] Concat Colloum
+``` sql
 SELECT CONCAT(first_name, ' ', last_name) AS 'Name', dept FROM users;
 ```
-##### DISTINCT ROWS
-```
+
+>[!tip] DISTINCT ROWS
+``` sql
 SELECT DISTINCT rowName from tableName
 ```
-##### BETWEEN (SELECT RANGE)
-```
+>[!tip] BETWEEN (SELECT RANGE)
+``` sql
 SELECT rowName from tableName WHERE rowName BETWEEN 20 and 25; #IF INT
 ```
-##### LIKE (SEARCHING)
-```
+>[!tip] LIKE (SEARCHING)
+``` sql
 SELECT rowName from tableName WHERE rowName like 'd%'
 SELECT rowName from tableName WHERE rowName like 'dev%'
 SELECT rowName from tableName WHERE rowName like '%t'
 SELECT rowName from tableName WHERE rowName like '%e%'
 ```
-##### NOT LIKE
-```
+>[!tip] NOT LIKE
+``` sql
 SELECT rowName FROM tableName WHERE rowName NOT LIKE 'd%';
 ```
-##### IN
-```
+>[!tip] IN
+``` sql
 SELECT * FROM tableName WHERE rowName IN ('design', 'sales');
 ```
-### INDEX
-```
+>[!tip] INDEX
+``` sql
 CREATE INDEX LIndex On users(location);
 DROP INDEX LIndex ON users;
 ```
 
 ### JOIN
-##### INNER JOIN
-```
+>[!tip] INNER JOIN
+``` sql
 SELECT
 rowNamesFromBoth
 FROM tableName
@@ -142,8 +145,8 @@ INNER JOIN posts
 ON users.id = posts.user_id
 ORDER BY posts.title;
 ```
-##### LEFTJOIN & RIGHTJOIN
-```
+>[!tip] LEFTJOIN & RIGHTJOIN
+``` sql
 SELECT
 rowNamesFromBoth
 FROM tableName
@@ -168,8 +171,8 @@ Right outer join
 | 8. | The Union clause is applicable only when the number of columns and corresponding attributes has the same domain. | The Join clause is applicable only when the two tables that are going to be used have at least one column. |
 | 9. | The Union clause can have mainly two types that are given as UNION and UNION ALL|  The Join clause can have different types that are given as INNER JOIN, LEFT OUTER JOIN, RIGHT OUTER JOIN, FULL JOIN |
 
-##### INNER JOIN
-```
+>[!tip] INNER JOIN
+``` sql
 SELECT
 rowNamesFromBoth
 FROM tableName
@@ -177,8 +180,12 @@ INNER JOIN tableName on rowName = secondRowName
 INNER JOIN tableName on rowName = secondRowName # SHOULD NOT BE THE SAME TABLE
 ORDER BY posts.title;
 ```
-##### AGGREGATE FUNCTIONS
-```
+Think of inner join as a more specialized natural, where you only get where the on is true, but get all so no squishing of 2 tables
+
+![[Pasted image 20230514131615.png]]
+
+>[!tip] AGGREGATE FUNCTIONS
+``` sql
 SELECT COUNT(rowName) FROM tableName;
 SELECT MAX(rowName) FROM tableName;
 SELECT MIN(rowName) FROM tableName;
@@ -186,14 +193,36 @@ SELECT SUM(rowName) FROM tableName;
 SELECT UCASE(first_name), LCASE(last_name) FROM tableName;
 ```
 
-```
+``` sql
 UCASE = toUpperCase
 LCASE = toLowerCase
 ```
 
-##### GROUP BY
-```
+>[!tip] GROUP BY
+``` sql
 SELECT age, COUNT(age) FROM users GROUP BY age;
 SELECT age, COUNT(age) FROM users WHERE age > 20 GROUP BY age;
 SELECT age, COUNT(age) FROM users GROUP BY age HAVING count(age) >=2;
 ```
+>[!tip] HAVING 
+
+Having is mostly used with aggrregate functions since they run after the database has been made
+``` sql
+SELECT _column_name(s)_  
+FROM _table_name_  
+WHERE _condition_  
+GROUP BY _column_name(s)  
+_HAVING _condition  
+_ORDER BY _column_name(s);_
+```
+
+>[!example] Having example
+>```
+>SELECT COUNT(CustomerID), Country  
+>FROM Customers  
+>GROUP BY Country  
+>HAVING COUNT(CustomerID) > 5  ## Aggragtor function
+>ORDER BY COUNT(CustomerID) DESC;
+>```
+
+

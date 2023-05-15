@@ -9,7 +9,7 @@
 1. Alice choose random $a \in \mathbb{Z}_q$
 2. Alice compute $A=g^{a}\text{ mod }p$, send to Bob
 3. Bob choose random $b \in \mathbb{Z}_q$
-4. Bob compute $B=g^{a}\text{ mod }p$, send to Alice
+4. Bob compute $B=g^{b}\text{ mod }p$, send to Alice
 5. Alice output $k=B^{a} \text{ mod }p$
 6. Bob output $k=A^{a} \text{ mod }p$ 
 7. They now have the same $k$
@@ -51,7 +51,7 @@ Fix $g \in \mathbb{Z}_{p}^{*}$ such that $g$ has [[Order of a group element | o
 	- If i can break [[Discrete Logarithms | DLOG]], then i can use that solution so break CDH
 	- **not** the other way around
 
-TODO: INSERT IMAGE FROM SLIDE 24
+![[CDH vs DLOG.png]]
 
 
 ### DDH - Decisional Diffie Hellman Problem
@@ -75,6 +75,3 @@ Fix $g \in \mathbb{Z}_{p}^{*}$ such that $g$ has [[Order of a group element | o
 - Attack on CDH => Attack on DDH
 	- If i can break CDH, then i can use that solution so break DDH
 	- **not** the other way around (reverse is not known in general)
-
-### Example of finding diffieHellman key exchange
-Help
