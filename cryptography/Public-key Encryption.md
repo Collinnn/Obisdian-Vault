@@ -53,3 +53,4 @@ indistinguishability under chosen plaintext attack
 
 ## PKE - IND-CCA
 ![[IND-CCA.png]]
+![[Pasted image 20230515102631.png]]
