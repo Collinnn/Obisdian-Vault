@@ -8,56 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3df0b6fed97f6326",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "3cb288e8b6b607c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CAN BUS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4967d7a1ff88247a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Embedded System Parts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac06bb68d2e0e5d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Circuit Laws.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80b9a3b8a6a1ea5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Voltage Calculation.md",
+                "file": "Serial Communication.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serial Description.md",
+                "file": "Serial Communication.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "856849bdd975e802",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/w4-serial-communication.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serial Description.md",
+                "file": "Serial Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serial Description.md",
+                "file": "Serial Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serial Description.md"
+                "file": "Serial Communication.md"
               }
             }
           }
@@ -205,31 +171,34 @@
   },
   "active": "654c734c207c9438",
   "lastOpenFiles": [
-    "Voltage Calculation.md",
-    "Serial Description.md",
-    "Pasted image 20231202161507.png",
-    "Pasted image 20231202153004.png",
-    "Pasted image 20231202152933.png",
-    "Pasted image 20231202152757.png",
-    "Circuit Laws.md",
-    "Pictures/Pasted image 20231201192502.png",
-    "Embedded System Parts.md",
-    "Pictures/Pasted image 20231201192311.png",
-    "Pictures/Pasted image 20231201185219.png",
-    "Pictures/Pasted image 20231201185144.png",
+    "Slides/w4-serial-communication.pdf",
+    "Slides/w10-time-sync.pdf",
+    "Slides/w12-industrial-networks.pdf",
+    "Slides/w11-eai.pdf",
+    "Serial Communication.md",
     "CAN BUS.md",
+    "Circuit Laws.md",
+    "Embedded System Parts.md",
+    "Slides/w6-wireless-nes.pdf",
+    "Slides/w5-wired-nes.pdf",
+    "Voltage Calculation.md",
+    "Template.md",
+    "Slides/w8-embedded-software.pdf",
+    "Pictures/Pasted image 20231203200342.png",
+    "Serial Description.md",
+    "Pictures/Pasted image 20231203170727.png",
+    "Pictures/Pasted image 20231203170525.png",
+    "Pictures/Pasted image 20231203170440.png",
+    "Pictures/Pasted image 20231202152757.png",
+    "Pictures/Pasted image 20231202152933.png",
+    "Pictures/Pasted image 20231202161507.png",
+    "Pictures/Pasted image 20231202153004.png",
+    "Pictures/Pasted image 20231201192502.png",
+    "Pictures/Pasted image 20231201192311.png",
     "Slides/w1b-course-intro.pdf",
     "Slides/w1a-nes-intro.pdf",
     "Slides/w3-mcu-io.pdf",
-    "Slides/w4-serial-communication.pdf",
-    "Slides/w5-wired-nes.pdf",
-    "Slides/w6-wireless-nes.pdf",
-    "Slides/w8-embedded-software.pdf",
     "Slides/w9-performance.pdf",
-    "Slides/w10-time-sync.pdf",
-    "Slides/w11-eai.pdf",
-    "Pictures/Pasted image 20231201183825.png",
-    "Pictures/Pasted image 20231201183915.png",
     "Pasted image 20231201183828.png.md"
   ]
 }
