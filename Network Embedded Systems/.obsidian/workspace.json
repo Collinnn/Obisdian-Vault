@@ -8,41 +8,73 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cb288e8b6b607c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Serial Communication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "654c734c207c9438",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serial Communication.md",
+                "file": "Embedded Hardware.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "856849bdd975e802",
+            "id": "a8f28e631585e25e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Slides/w4-serial-communication.pdf"
+                "file": "Slides/w9-performance.pdf"
+              }
+            }
+          },
+          {
+            "id": "b7d7be336761ba0d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "notes_w12.pdf"
+              }
+            }
+          },
+          {
+            "id": "952efe597b78192c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Old Exam.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51141155b2a472e6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/IoT for the climate change.pdf"
+              }
+            }
+          },
+          {
+            "id": "c8169fab52d79ef5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TSCH.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serial Communication.md",
+                "file": "Old Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serial Communication.md",
+                "file": "Old Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serial Communication.md"
+                "file": "Old Exam.md"
               }
             }
           }
@@ -169,36 +201,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "654c734c207c9438",
+  "active": "952efe597b78192c",
   "lastOpenFiles": [
+    "nes-test-exam - Copy.pdf",
+    "Slides/w5-wired-nes.pdf",
     "Slides/w4-serial-communication.pdf",
-    "Slides/w10-time-sync.pdf",
-    "Slides/w12-industrial-networks.pdf",
-    "Slides/w11-eai.pdf",
-    "Serial Communication.md",
+    "Slides/w3-mcu-io.pdf",
+    "Slides/w2-electronics-basics.pdf",
     "CAN BUS.md",
+    "Old Exam.md",
+    "Pasted image 20231205201721.png",
+    "Pasted image 20231205201709.png",
+    "notes_w12.pdf",
+    "Slides/IoT for the climate change.pdf",
+    "Pictures/Pasted image 20231205194342.png",
+    "Async.md",
+    "Slides/w9-performance.pdf",
+    "nes-test-exam-Copy.pdf",
+    "Embedded Hardware.md",
+    "Slides/w12-industrial-networks.pdf",
+    "Bit shifting.md",
+    "Resistors.md",
+    "Pictures/Sizes.png",
+    "JTAG.md",
+    "TSCH.md",
+    "Pictures/Pasted image 20231205193107.png",
+    "Slides/w11-eai.pdf",
+    "hetrogeneous.md",
+    "Pictures/Pasted image 20231205180118.png",
+    "High Side  Shut resistor.md",
+    "Pictures/Pasted image 20231205172020.png",
+    "Pictures/Pasted image 20231205171850.png",
+    "Wireless signals.md",
+    "Pictures/Pasted image 20231205153712.png",
+    "Pictures/Pasted image 20231205155008.png",
+    "Serial Communication.md",
+    "Decibel.md",
+    "Wireless.md",
     "Circuit Laws.md",
     "Embedded System Parts.md",
-    "Slides/w6-wireless-nes.pdf",
-    "Slides/w5-wired-nes.pdf",
     "Voltage Calculation.md",
-    "Template.md",
-    "Slides/w8-embedded-software.pdf",
-    "Pictures/Pasted image 20231203200342.png",
     "Serial Description.md",
-    "Pictures/Pasted image 20231203170727.png",
-    "Pictures/Pasted image 20231203170525.png",
-    "Pictures/Pasted image 20231203170440.png",
-    "Pictures/Pasted image 20231202152757.png",
-    "Pictures/Pasted image 20231202152933.png",
-    "Pictures/Pasted image 20231202161507.png",
-    "Pictures/Pasted image 20231202153004.png",
-    "Pictures/Pasted image 20231201192502.png",
-    "Pictures/Pasted image 20231201192311.png",
-    "Slides/w1b-course-intro.pdf",
-    "Slides/w1a-nes-intro.pdf",
-    "Slides/w3-mcu-io.pdf",
-    "Slides/w9-performance.pdf",
     "Pasted image 20231201183828.png.md"
   ]
 }
